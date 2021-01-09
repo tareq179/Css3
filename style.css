@@ -1,0 +1,11 @@
+.box{
+    width: 400px;
+    height: 200px;
+    border: 1px solid palegoldenrod;
+    overflow: scroll;
+}
+.box2{
+    width: 400px;
+    height: 200px;
+    border:1px solid peru;
+}

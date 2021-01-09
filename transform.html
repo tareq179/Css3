@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 1px solid rebeccapurple;
+        }
+        .outor{
+            background-color: gray;
+        }
+        .innor{
+            background-color: indianred;
+            transform: rotate(46deg) scale(.75);
+        }
+    </style>
+</head>
+<body>
+    <div class="box outor">
+        <div class="box innor">box-1</div>
+    </div>
+    <div class="box outor">
+        <div class="box innor">box-2</div>
+    </div>
+    <div class="box outor">
+        <div class="box innor">box-3</div>
+    </div>
+</body>
+</html>
